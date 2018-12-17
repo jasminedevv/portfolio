@@ -1,0 +1,101 @@
+body {
+  color: #555;
+  background-color: #f9f9f9;
+  font-family: Abel;
+}
+/*https://s-media-cache-ak0.pinimg.com/736x/d2/33/b3/d233b37a9bbe31cac99f99558fa085b3.jpg*/
+.jumbotron {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3)),
+    url("../img/jaggedgorge.png");
+  background-color: rgba(0,0,0,0.5);
+  height: 500px;
+  background-size: cover;
+  margin: 6%;
+  color: #444;
+}
+
+h4 {
+  font-family: Abel;
+}
+
+.header {
+  margin: 10%;
+}
+
+#items {
+  margin: 5%;
+}
+
+.box-holder {
+  padding: 0px;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  max-height: 100%;
+}
+
+.box {
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+.round-corners {
+  border-radius: 10px;
+}
+
+.shadow {
+  top: -3px;
+  left: -3px;
+  -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.53);
+  -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.53);
+  box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.53);
+}
+
+.links {
+  text-align: center;
+  color: white;
+  margin-top: 20vh;
+  margin-bottom: 20px;
+  font-size: 30px;
+  z-index: 4;
+}
+
+.links a {
+  color: white;
+}
+
+.my-face {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.thanks {
+  margin: 10%;
+  text-align: center;
+}
+.thanks a {
+  font-size: 3em;
+  color: #456;
+  margin: 10px;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer {
+  color: #ccc;
+  padding: 2% 5% 1% 5%;
+  margin-top: 100px;
+  background-color: #034;
+  border-top: 5px solid #456;
+}
